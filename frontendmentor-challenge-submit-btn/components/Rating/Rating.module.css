@@ -1,0 +1,115 @@
+.form {
+  border-radius: 2rem;
+  background-color: var(--clr-neutral-3);
+  padding: 2rem;
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.figure {
+  background-color: var(--clr-neutral-4);
+  border-radius: 50%;
+  height: 3.25rem;
+  width: 3.25rem;
+  padding: 0.5rem;
+  display: grid;
+  place-content: center;
+}
+
+.title {
+  color: var(--clr-neutral);
+}
+
+.btn__group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  background-color: var(--clr-neutral-4);
+  outline: none;
+  border: none;
+  border-radius: 50%;
+  height: 3.25rem;
+  width: 3.25rem;
+  padding: 0.5rem;
+  display: grid;
+  place-content: center;
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--clr-neutral-2);
+  cursor: pointer;
+  transition: all 0.25s ease-in-out;
+}
+
+.btn:hover {
+  background-color: var(--clr-neutral-2);
+  color: var(--clr-neutral);
+}
+
+.btn:focus {
+  background-color: var(--clr-primary);
+  color: var(--clr-neutral);
+}
+
+.btn__submit {
+  background-color: var(--clr-primary);
+  outline: none;
+  border: none;
+  border-radius: 2rem;
+  padding: 1rem;
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--clr-neutral);
+  width: 100%;
+  cursor: pointer;
+  transition: all 0.25s ease-in-out;
+}
+
+.btn__submit:hover {
+  background-color: var(--clr-neutral);
+  color: var(--clr-primary);
+}
+
+.thank__you {
+  border-radius: 2rem;
+  background-color: var(--clr-neutral-3);
+  padding: 2rem;
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  text-align: center;
+}
+
+.figure__thank {
+  display: flex;
+  justify-content: center;
+}
+
+.rating__display {
+  margin: 0 auto;
+  border-radius: 2rem;
+  background-color: var(--clr-neutral-4);
+  color: var(--clr-primary);
+  padding: 0.25rem 1rem;
+  width: fit-content;
+}
+
+.rating__given {
+  display: grid;
+  place-content: center;
+}
+
+.message {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.thank__title {
+  color: var(--clr-neutral);
+}
